@@ -1,0 +1,17 @@
+<% if(generateComments) {%>
+# top-most EditorConfig file
+<% } %>
+root = true
+
+[*]
+indent_style = <%= codeStyle.identStyle %>
+<% if(codeStyle.identStyle === 'space') {%>
+indent_size = <%= codeStyle.identSize %>
+<% } %>
+end_of_line = <%= editorConfig.endOfLine %>
+charset = <%= editorConfig.charset %>
+trim_trailing_whitespace = <%= editorConfig.trimTrailing %>
+insert_final_newline = <%= editorConfig.insertNewline %>
+
+[*.md]
+trim_trailing_whitespace = false

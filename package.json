@@ -1,0 +1,28 @@
+{
+  "name": "generator-gulp-js",
+  "version": "0.0.1-alpha",
+  "description": "Yeoman generator for Javascript front-end project using Gulp. Defines javascript styles as well",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.18.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "gulp"
+  ],
+  "author": "Corintho Assunção <corintho.filho@gmail.com>",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/corintho/yo-generator-gulp-js.git"
+  },
+  "license": "ISC",
+  "private": true
+}
